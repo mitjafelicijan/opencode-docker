@@ -32,6 +32,7 @@ Add to `~/.bashrc` or `~/.zshrc`:
 ```bash
 opencode() {
     docker run --rm -it \
+        --pull=always \
         --user "$(id -u):$(id -g)" \
         -e HOME=/tmp \
         -e XDG_DATA_HOME=/opencode-data \
