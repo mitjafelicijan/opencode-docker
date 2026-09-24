@@ -73,7 +73,7 @@ opencode
 - **Zig**: Zig, zls
 - **Python**: Python 3, pip, Pyright
 - **PHP**: PHP, Intelephense
-- **TypeScript / JavaScript**: Node.js, npm, typescript-language-server
+- **TypeScript / JavaScript**: Node.js, Bun, npm, typescript-language-server
 - **Shell**: Bash, Bash Language Server
 - **DevOps & Formats**: Dockerfile Language Server, YAML Language Server, VS Code HTML/CSS/JSON
 - **CLI Utilities**: Git, curl, jq, grep, find, unzip, zip

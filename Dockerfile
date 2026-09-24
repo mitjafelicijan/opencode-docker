@@ -34,6 +34,7 @@ RUN ln -sf /usr/bin/lua-language-server /usr/bin/lua-ls
 
 # Language servers
 RUN npm install -g \
+    bun \
     intelephense \
     typescript \
     typescript-language-server \
